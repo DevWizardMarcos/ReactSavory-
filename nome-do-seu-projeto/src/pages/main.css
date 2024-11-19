@@ -1,0 +1,11 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+    height: 100vh;
+}
+
+.footer {
+    bottom: 0;
+}
