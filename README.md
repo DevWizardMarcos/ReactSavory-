@@ -1,34 +1,19 @@
 # ReactSavory
 
 Projeto em React com API de cardápio de restaurante. Inicia com uma tela de login animada e exibe os pratos em cards estilizados, simulando menus para uma experiência moderna e atrativa.
-
-## Destaque Visual
-
-### Opção 1: Imagem Clicável Simples
-
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7267641509196320768/?originTrackingId=wauRRE1wR0Oz%2FU%2FYGQeUWg%3D%3D">
-    <img src="./react.png" alt="ReactSavory Projeto" width="250" style="border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.2);border:2px solid #61dafb;">
-  </a>
-<p align="center"><b>Projeto moderno em React para restaurantes</b></p>
-### Opção 2: Imagem com Borda, Sombra e Descrição
-
-
-
-### Opção 3: Banner com Chamada para Ação
+<hr>
 
 <p align="center">
-  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7267641509196320768/?originTrackingId=wauRRE1wR0Oz%2FU%2FYGQeUWg%3D%3D">
     <img src="./react.png" alt="ReactSavory" width="350" style="border-radius:24px;box-shadow:0 8px 24px rgba(97,218,251,0.2);border:3px solid #282c34;">
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md" style="text-decoration:none;">
-    <span style="font-size:1.3em; color:#61dafb;"><b>👉 Clique aqui para conhecer o cardápio interativo em React!</b></span>
   </a>
 </p>
 
----
-
+<hr>
 ## 🚀 Como Instalar e Executar
 
 Siga os passos abaixo para rodar o projeto localmente:
