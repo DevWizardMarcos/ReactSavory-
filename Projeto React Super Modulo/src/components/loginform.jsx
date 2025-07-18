@@ -51,22 +51,6 @@ function LoginForm() {
             
         };
 
-        function App() {
-            return (
-              <div className="App">
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  id="background-video"
-                  src="your-video-file.mp4"
-                  type="video/mp4"
-                />
-                {}
-              </div>
-            );
-          }
-
 	return(
 
 

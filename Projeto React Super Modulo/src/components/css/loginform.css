@@ -15,35 +15,7 @@ body {
 }
 
 .animated-login-form {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 300px;
-  text-align: center;
-}
-
-.animated-login-form input {
-  width: 70%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.animated-login-form button {
-  width: 50%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #480303;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.animated-login-form button:hover {
-  background-color: white;
+  display: none; /* Escondendo o formulário de login animado */
 }
 
 .animated-card-container {
