@@ -2,26 +2,17 @@
 
 Projeto em React com API de cardápio de restaurante. Inicia com uma tela de login animada e exibe os pratos em cards estilizados, simulando menus para uma experiência moderna e atrativa.
 
----
-
 ## Destaque Visual
 
 ### Opção 1: Imagem Clicável Simples
 
-[![ReactSavory](./react.png)](https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md)
-
----
-
-### Opção 2: Imagem com Borda, Sombra e Descrição
-
-<p align="center">
-  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md">
+  <a href="">
     <img src="./react.png" alt="ReactSavory Projeto" width="250" style="border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.2);border:2px solid #61dafb;">
   </a>
-</p>
 <p align="center"><b>Projeto moderno em React para restaurantes</b></p>
+### Opção 2: Imagem com Borda, Sombra e Descrição
 
----
+
 
 ### Opção 3: Banner com Chamada para Ação
 
@@ -30,7 +21,6 @@ Projeto em React com API de cardápio de restaurante. Inicia com uma tela de log
     <img src="./react.png" alt="ReactSavory" width="350" style="border-radius:24px;box-shadow:0 8px 24px rgba(97,218,251,0.2);border:3px solid #282c34;">
   </a>
 </p>
-
 <p align="center">
   <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md" style="text-decoration:none;">
     <span style="font-size:1.3em; color:#61dafb;"><b>👉 Clique aqui para conhecer o cardápio interativo em React!</b></span>
@@ -39,7 +29,47 @@ Projeto em React com API de cardápio de restaurante. Inicia com uma tela de log
 
 ---
 
-## Funcionalidades
+## 🚀 Como Instalar e Executar
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/DevWizardMarcos/ReactSavory-.git
+   cd ReactSavory-
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
+
+4. **Abra o navegador e acesse:**
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🔑 Como Entrar
+
+Utilize as credenciais abaixo para acessar o sistema:
+
+- **E-mail:** exemplo@email.com
+- **Senha:** 1234
+
+---
+
+## 🧩 Funcionalidades
 
 - Tela de login animada e moderna
 - Listagem dos pratos em cards estilizados
@@ -47,15 +77,27 @@ Projeto em React com API de cardápio de restaurante. Inicia com uma tela de log
 - Consumo de API de cardápio
 - Experiência de usuário aprimorada
 
-## Tecnologias Utilizadas
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - React
 - JavaScript
 - CSS
 - HTML
 
-## Como Executar
+---
 
-1. Clone o projeto:
-   ```bash
-   git clone https://github.com/DevWizardMarcos/ReactSavory-.git
+## 💼 Para Recrutadores
+
+Este projeto foi desenvolvido pensando em proporcionar uma experiência visual marcante e um código limpo e bem estruturado. Confira o vídeo, explore o projeto e sinta-se à vontade para entrar em contato!
+
+---
+
+## 📬 Contato
+
+Dúvidas, sugestões ou oportunidades? Abra uma [issue](https://github.com/DevWizardMarcos/ReactSavory-/issues) ou envie uma mensagem pelo [LinkedIn](https://www.linkedin.com/in/seu-linkedin).
+
+---
+
+> Projeto desenvolvido por [DevWizardMarcos](https://github.com/DevWizardMarcos)
