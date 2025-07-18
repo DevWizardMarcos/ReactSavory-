@@ -6,7 +6,7 @@ Projeto em React com API de cardápio de restaurante. Inicia com uma tela de log
 
 ### Opção 1: Imagem Clicável Simples
 
-  <a href="">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7267641509196320768/?originTrackingId=wauRRE1wR0Oz%2FU%2FYGQeUWg%3D%3D">
     <img src="./react.png" alt="ReactSavory Projeto" width="250" style="border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.2);border:2px solid #61dafb;">
   </a>
 <p align="center"><b>Projeto moderno em React para restaurantes</b></p>
