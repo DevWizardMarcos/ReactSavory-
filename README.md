@@ -1,58 +1,51 @@
-````markdown name=README.md
-# ReactSavory-
+# ReactSavory
 
-Projeto em React que simula o cardápio digital de um restaurante, oferecendo uma experiência moderna e atrativa através de uma interface interativa e estilizada. O projeto inicia com uma tela de login animada e, após autenticação, exibe os pratos em cards visuais, proporcionando uma navegação intuitiva.
+Projeto em React com API de cardápio de restaurante. Inicia com uma tela de login animada e exibe os pratos em cards estilizados, simulando menus para uma experiência moderna e atrativa.
 
-## Demonstração em Vídeo
+---
 
-Assista ao vídeo de demonstração do projeto para ver todas as funcionalidades em ação:
+## Destaque Visual
 
-[![Demonstração do ReactSavory](https://www.linkedin.com/posts/marcos-simoes-ms_estou-super-empolgado-em-compartilhar-activity-7267641509196320768-A8B3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACoR26kByjBeTEXIAJwn2VswTCE5HBJe4RI)
+### Opção 1: Imagem Clicável Simples
 
-> **Substitua `SEU_VIDEO_ID` pela ID do vídeo do YouTube quando fizer o upload.**
+[![ReactSavory](./react.png)](https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md)
 
-## Como executar o projeto
+---
 
-1. **Clone o repositório:**
+### Opção 2: Imagem com Borda, Sombra e Descrição
 
-   ```bash
-   git clone https://github.com/DevWizardMarcos/ReactSavory-.git
-   cd ReactSavory-
-   ```
+<p align="center">
+  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md">
+    <img src="./react.png" alt="ReactSavory Projeto" width="250" style="border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.2);border:2px solid #61dafb;">
+  </a>
+</p>
+<p align="center"><b>Projeto moderno em React para restaurantes</b></p>
 
-2. **Instale as dependências:**
+---
 
-   ```bash
-   npm install
-   # ou
-   yarn install
-   ```
+### Opção 3: Banner com Chamada para Ação
 
-3. **Execute o projeto:**
+<p align="center">
+  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md">
+    <img src="./react.png" alt="ReactSavory" width="350" style="border-radius:24px;box-shadow:0 8px 24px rgba(97,218,251,0.2);border:3px solid #282c34;">
+  </a>
+</p>
 
-   ```bash
-   npm start
-   # ou
-   yarn start
-   ```
+<p align="center">
+  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md" style="text-decoration:none;">
+    <span style="font-size:1.3em; color:#61dafb;"><b>👉 Clique aqui para conhecer o cardápio interativo em React!</b></span>
+  </a>
+</p>
 
-4. **Acesse no navegador:**
-   
-   O app estará disponível em [http://localhost:3000](http://localhost:3000)
-
-## Login de Teste
-
-Para acessar o sistema, utilize as credenciais abaixo:
-
-- **E-mail:** exemplo@email.com
-- **Senha:** 1234
+---
 
 ## Funcionalidades
 
-- Tela de login animada e responsiva
-- Autenticação simulada
-- Listagem de pratos em cards estilizados
-- Interface moderna e fácil de usar
+- Tela de login animada e moderna
+- Listagem dos pratos em cards estilizados
+- Simulação de menus interativos
+- Consumo de API de cardápio
+- Experiência de usuário aprimorada
 
 ## Tecnologias Utilizadas
 
@@ -61,11 +54,8 @@ Para acessar o sistema, utilize as credenciais abaixo:
 - CSS
 - HTML
 
-## Contato
+## Como Executar
 
-Fique à vontade para entrar em contato via [GitHub Issues](https://github.com/DevWizardMarcos/ReactSavory-/issues) para dúvidas ou sugestões!
-
----
-
-> Projeto desenvolvido por [DevWizardMarcos](https://github.com/DevWizardMarcos)
-````
+1. Clone o projeto:
+   ```bash
+   git clone https://github.com/DevWizardMarcos/ReactSavory-.git
