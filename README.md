@@ -1,5 +1,5 @@
 🍽️ Savory — Explore receitas de forma simples e moderna
-<p align="center"> <img src="./public/banner.png" alt="Savory Banner" width="100%" /> </p> <p align="center"> <a href="#-preview">Preview</a> • <a href="#-funcionalidades">Funcionalidades</a> • <a href="#-tecnologias">Tecnologias</a> • <a href="#-instalação">Instalação</a> • <a href="#-estrutura-do-projeto">Estrutura</a> • <a href="#-deploy">Deploy</a> </p>
+<p align="center"> <img src="readReactSavatory/bannerPrincipal.png" alt="Savory Banner" width="100%" /> </p> </p>
 📖 Sobre o projeto
 
 O Savory é uma aplicação web desenvolvida com React 18 que permite aos usuários explorar receitas culinárias de maneira intuitiva e moderna.
@@ -13,19 +13,7 @@ Boas práticas com React
 Navegação SPA
 Gerenciamento global de estado
 Experiência visual moderna e responsiva
-🎥 Preview
-📹 Vídeo demonstrativo
 
-Adicione aqui o vídeo do projeto
-
-<p align="center"> <a href="https://seu-video-demo.com"> <img src="./public/video-preview.png" width="700px" alt="Video Preview"/> </a> </p>
-📸 Screenshots
-🔐 Tela de Login
-<p align="center"> <img src="./public/login-preview.png" width="800px" alt="Login Screen"/> </p>
-🍔 Página principal
-<p align="center"> <img src="./public/home-preview.png" width="800px" alt="Home Screen"/> </p>
-📋 Modal de detalhes
-<p align="center"> <img src="./public/modal-preview.png" width="800px" alt="Recipe Modal"/> </p>
 ✨ Funcionalidades
 
 ✅ Autenticação com validação de login
@@ -51,18 +39,17 @@ GitHub Pages	Deploy da aplicação
 🛠️ Instalação
 
 # Clone o projeto
-<hr>
+git clone https://github.com/seu-usuario/savory.git<hr>
 
- <img src="./public/banner.png" alt="Savory Banner" width="100%" />
 <hr>
 
 # Instale as dependências 
 
- <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+ <img src="readReactSavatory/dependencias.PNG" alt="Savory Banner" width="100%" />
 
 <hr>
 # Execute o projeto
- <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+ <img src="readReactSavatory/rodar.PNG" alt="Savory Banner" width="100%" />
 <hr>
 
 # API utilizada
@@ -73,10 +60,10 @@ https://www.themealdb.com/
 
 # 📂 Estrutura do projeto
 
- <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+ <img src="readReactSavatory/estrutura.PNG" alt="Savory Banner" width="80%" />
 
 # 🔑 Fluxo da aplicação
- <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+ <img src="readReactSavatory/fluxo.png" alt="Savory Banner" width="400" />
 
 # 📱 Responsividade
 
