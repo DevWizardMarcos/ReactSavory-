@@ -1,88 +1,92 @@
-# ReactSavory
+🍽️ Savory — Explore receitas de forma simples e moderna
+<p align="center"> <img src="./public/banner.png" alt="Savory Banner" width="100%" /> </p> <p align="center"> <a href="#-preview">Preview</a> • <a href="#-funcionalidades">Funcionalidades</a> • <a href="#-tecnologias">Tecnologias</a> • <a href="#-instalação">Instalação</a> • <a href="#-estrutura-do-projeto">Estrutura</a> • <a href="#-deploy">Deploy</a> </p>
+📖 Sobre o projeto
 
-Projeto em React com API de cardápio de restaurante. Inicia com uma tela de login animada e exibe os pratos em cards estilizados, simulando menus para uma experiência moderna e atrativa.
+O Savory é uma aplicação web desenvolvida com React 18 que permite aos usuários explorar receitas culinárias de maneira intuitiva e moderna.
+
+A aplicação conta com um sistema de autenticação simples utilizando e-mail e senha, persistência de sessão com localStorage e integração com a API pública TheMealDB, permitindo listar receitas por categorias e visualizar detalhes completos através de modais interativos.
+
+O projeto foi desenvolvido com foco em:
+
+Organização de componentes
+Boas práticas com React
+Navegação SPA
+Gerenciamento global de estado
+Experiência visual moderna e responsiva
+🎥 Preview
+📹 Vídeo demonstrativo
+
+Adicione aqui o vídeo do projeto
+
+<p align="center"> <a href="https://seu-video-demo.com"> <img src="./public/video-preview.png" width="700px" alt="Video Preview"/> </a> </p>
+📸 Screenshots
+🔐 Tela de Login
+<p align="center"> <img src="./public/login-preview.png" width="800px" alt="Login Screen"/> </p>
+🍔 Página principal
+<p align="center"> <img src="./public/home-preview.png" width="800px" alt="Home Screen"/> </p>
+📋 Modal de detalhes
+<p align="center"> <img src="./public/modal-preview.png" width="800px" alt="Recipe Modal"/> </p>
+✨ Funcionalidades
+
+✅ Autenticação com validação de login
+✅ Persistência de sessão com localStorage
+✅ Navegação dinâmica com React Router DOM
+✅ Busca de receitas por categoria
+✅ Listagem em cards responsivos
+✅ Modal com detalhes completos da receita
+✅ Gerenciamento de estado global com Context API
+✅ Interface moderna e responsiva
+✅ Deploy online via GitHub Pages
+
+🚀 Tecnologias utilizadas
+<div align="center">
+Tecnologia	Descrição
+React 18	Biblioteca principal da aplicação
+Vite	Build tool moderna
+React Router DOM v7	Gerenciamento de rotas
+Context API	Estado global
+TheMealDB API	API de receitas
+GitHub Pages	Deploy da aplicação
+</div>
+🛠️ Instalação
+
+# Clone o projeto
 <hr>
 
-<p align="center">
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7267641509196320768/?originTrackingId=wauRRE1wR0Oz%2FU%2FYGQeUWg%3D%3D">
-    <img src="./react.png" alt="ReactSavory" width="350" style="border-radius:24px;box-shadow:0 8px 24px rgba(97,218,251,0.2);border:3px solid #282c34;">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/DevWizardMarcos/ReactSavory-/blob/main/README.md" style="text-decoration:none;">
-  </a>
-</p>
+ <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+<hr>
+
+# Instale as dependências 
+
+ <img src="./public/banner.png" alt="Savory Banner" width="100%" />
 
 <hr>
-## 🚀 Como Instalar e Executar
+# Execute o projeto
+ <img src="./public/banner.png" alt="Savory Banner" width="100%" />
+<hr>
 
-Siga os passos abaixo para rodar o projeto localmente:
+# API utilizada
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/DevWizardMarcos/ReactSavory-.git
-   cd ReactSavory-
-   ```
+A aplicação consome dados da API pública:
 
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   # ou
-   yarn install
-   ```
+https://www.themealdb.com/
 
-3. **Inicie o servidor de desenvolvimento:**
-   ```bash
-   npm start
-   # ou
-   yarn start
-   ```
+# 📂 Estrutura do projeto
 
-4. **Abra o navegador e acesse:**
-   ```
-   http://localhost:3000
-   ```
+ <img src="./public/banner.png" alt="Savory Banner" width="100%" />
 
----
+# 🔑 Fluxo da aplicação
+ <img src="./public/banner.png" alt="Savory Banner" width="100%" />
 
-## 🔑 Como Entrar
+# 📱 Responsividade
 
-Utilize as credenciais abaixo para acessar o sistema:
+O projeto foi desenvolvido seguindo conceitos de responsividade para funcionar em:
 
-- **E-mail:** exemplo@email.com
-- **Senha:** 1234
+📱 Mobile
+💻 Desktop
+📲 Tablets
+🚀 Deploy
 
----
 
-## 🧩 Funcionalidades
 
-- Tela de login animada e moderna
-- Listagem dos pratos em cards estilizados
-- Simulação de menus interativos
-- Consumo de API de cardápio
-- Experiência de usuário aprimorada
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- React
-- JavaScript
-- CSS
-- HTML
-
----
-
-## 💼 Para Recrutadores
-
-Este projeto foi desenvolvido pensando em proporcionar uma experiência visual marcante e um código limpo e bem estruturado. Confira o vídeo, explore o projeto e sinta-se à vontade para entrar em contato!
-
----
-
-## 📬 Contato
-
-Dúvidas, sugestões ou oportunidades? Abra uma [issue](https://github.com/DevWizardMarcos/ReactSavory-/issues) ou envie uma mensagem pelo [LinkedIn](https://www.linkedin.com/in/seu-linkedin).
-
----
-
-> Projeto desenvolvido por [DevWizardMarcos](https://github.com/DevWizardMarcos)
