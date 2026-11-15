@@ -1,79 +1,123 @@
-🍽️ Savory — Explore receitas de forma simples e moderna
-<p align="center"> <img src="readReactSavatory/bannerPrincipal.png" alt="Savory Banner" width="100%" /> </p> </p>
-📖 Sobre o projeto
-
-O Savory é uma aplicação web desenvolvida com React 18 que permite aos usuários explorar receitas culinárias de maneira intuitiva e moderna.
-
-A aplicação conta com um sistema de autenticação simples utilizando e-mail e senha, persistência de sessão com localStorage e integração com a API pública TheMealDB, permitindo listar receitas por categorias e visualizar detalhes completos através de modais interativos.
-
-O projeto foi desenvolvido com foco em:
-
-Organização de componentes
-Boas práticas com React
-Navegação SPA
-Gerenciamento global de estado
-Experiência visual moderna e responsiva
-
-✨ Funcionalidades
-
-✅ Autenticação com validação de login
-✅ Persistência de sessão com localStorage
-✅ Navegação dinâmica com React Router DOM
-✅ Busca de receitas por categoria
-✅ Listagem em cards responsivos
-✅ Modal com detalhes completos da receita
-✅ Gerenciamento de estado global com Context API
-✅ Interface moderna e responsiva
-✅ Deploy online via GitHub Pages
-
-🚀 Tecnologias utilizadas
-<div align="center">
-Tecnologia	Descrição
-React 18	Biblioteca principal da aplicação
-Vite	Build tool moderna
-React Router DOM v7	Gerenciamento de rotas
-Context API	Estado global
-TheMealDB API	API de receitas
-GitHub Pages	Deploy da aplicação
-</div>
-🛠️ Instalação
-
-# Clone o projeto
-git clone https://github.com/seu-usuario/savory.git<hr>
-
-<hr>
-
-# Instale as dependências 
-
- <img src="readReactSavatory/dependencias.PNG" alt="Savory Banner" width="100%" />
-
-<hr>
-# Execute o projeto
- <img src="readReactSavatory/rodar.PNG" alt="Savory Banner" width="100%" />
-<hr>
-
-# API utilizada
-
-A aplicação consome dados da API pública:
-
-https://www.themealdb.com/
-
-# 📂 Estrutura do projeto
-
- <img src="readReactSavatory/estrutura.PNG" alt="Savory Banner" width="80%" />
-
-# 🔑 Fluxo da aplicação
- <img src="readReactSavatory/fluxo.png" alt="Savory Banner" width="400" />
-
-# 📱 Responsividade
-
-O projeto foi desenvolvido seguindo conceitos de responsividade para funcionar em:
-
-📱 Mobile
-💻 Desktop
-📲 Tablets
-🚀 Deploy
-
-
-
-
+<h1 align="center">🍽️ Savory</h1>
+ 
+<p align="center">
+  <strong>SPA em React para explorar receitas por categoria, consumindo a API pública TheMealDB.</strong>
+</p>
+<p align="center">
+  <a href="https://supermoduloreact.com"><strong>🔗 Ver demo ao vivo</strong></a>
+  ·
+  <a href="#-como-rodar-localmente">Rodar localmente</a>
+  ·
+  <a href="#-autor">Contato</a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_Router-v7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Context_API-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" />
+</p>
+<p align="center">
+  <img src="readReactSavatory/bannerPrincipal.png" alt="Tela principal do Savory" width="100%" />
+</p>
+---
+ 
+## 📌 Resumo
+ 
+O **Savory** é uma aplicação front-end que simula a experiência de um cardápio digital: o usuário faz login, navega pelas categorias de receitas e abre os detalhes de cada prato (ingredientes, modo de preparo e imagem) em um modal.
+ 
+O foco do projeto foi praticar **arquitetura de componentes, roteamento SPA, estado global e consumo de API REST** em React, com deploy contínuo no GitHub Pages.
+ 
+## 🎯 Destaques técnicos
+ 
+| O que | Como foi feito |
+|---|---|
+| **Consumo de API REST** | Requisições assíncronas (`fetch` + `async/await`) à TheMealDB para listar categorias, receitas e detalhes |
+| **Estado global** | `UserContext` (Context API) compartilha o usuário logado entre páginas, sem prop drilling |
+| **Roteamento SPA** | React Router DOM v7 com rotas para login, cadastro, home e "sobre" |
+| **Persistência de sessão** | Usuário salvo no `localStorage`, mantendo a sessão ao recarregar a página |
+| **Componentização** | Componentes reutilizáveis (`Card`, `Header`, `Footer`, `IngredientList`, `HeroInputField`) separados de páginas |
+| **UI responsiva** | Layout em cards adaptado para mobile, tablet e desktop |
+| **Build e deploy** | Vite para build + `gh-pages` com script `predeploy` automatizando a publicação |
+ 
+> ℹ️ A autenticação é **simulada**: as credenciais são validadas contra um JSON local (`public/usuarios.json`). O objetivo foi praticar o fluxo de login/sessão no front-end, não segurança de back-end.
+ 
+## ✨ Funcionalidades
+ 
+- 🔐 Login com validação de e-mail e senha
+- 💾 Sessão persistida no `localStorage`
+- 🗂️ Navegação por categorias de receitas
+- 🃏 Listagem de pratos em cards responsivos
+- 🔎 Modal com detalhes completos da receita
+- 🌐 Deploy online com domínio próprio
+## 🧭 Fluxo da aplicação
+ 
+```mermaid
+flowchart LR
+    A[Login] -->|credenciais válidas| B[Salva sessão<br/>Context + localStorage]
+    B --> C[Home / Categorias]
+    C -->|seleciona categoria| D[Lista de receitas<br/>TheMealDB]
+    D -->|clica no card| E[Modal com detalhes]
+    A -->|inválidas| A
+```
+ 
+## 🗂️ Estrutura
+ 
+```
+src/
+├── components/      # Componentes reutilizáveis (Card, Header, Footer, LoginForm...)
+│   └── css/         # Estilos por componente
+├── context/
+│   └── userContext.jsx   # Estado global do usuário
+├── pages/           # Telas roteadas (hero, main, register, about)
+├── utils/           # Endpoints da API
+├── App.js           # Definição das rotas
+└── index.js         # Entry point
+```
+ 
+## 🚀 Como rodar localmente
+ 
+**Pré-requisitos:** Node.js 18+ e npm
+ 
+```bash
+# 1. Clone o repositório
+git clone https://github.com/DevWizardMarcos/ReactSavory-.git
+cd ReactSavory-
+ 
+# 2. Instale as dependências
+npm install
+ 
+# 3. Rode em modo de desenvolvimento
+npm run dev
+```
+ 
+Acesse `http://localhost:5173`.
+ 
+| Script | O que faz |
+|---|---|
+| `npm run dev` | Servidor de desenvolvimento (Vite) |
+| `npm run build` | Build de produção em `dist/` |
+| `npm run preview` | Pré-visualiza o build |
+| `npm run deploy` | Builda e publica no GitHub Pages |
+ 
+## 🔌 API
+ 
+Dados fornecidos pela [TheMealDB](https://www.themealdb.com/api.php) — API pública e gratuita de receitas.
+ 
+## 🛣️ Próximos passos
+ 
+- [ ] Busca de receitas por nome
+- [ ] Favoritos salvos por usuário
+- [ ] Estados de loading e erro nas requisições
+- [ ] Testes com React Testing Library
+- [ ] Migração para TypeScript
+## 👨‍💻 Autor
+ 
+**Marcos Simões** — Desenvolvedor Front-end · Belo Horizonte, MG
+ 
+<p>
+  <a href="https://portifolinodev.vercel.app"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/DevWizardMarcos"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/SEU-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+ 
